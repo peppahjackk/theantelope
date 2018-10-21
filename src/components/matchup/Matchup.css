@@ -1,0 +1,39 @@
+.team {
+    display: inline-block;
+    padding: .5rem 1rem;
+    border-left: 1px solid rgba(0,0,0,0.4);
+    border-right: 1px solid rgba(0,0,0,0.4);
+    background-color: snow;
+}
+
+.team.away {
+    margin-right: 0.5rem;
+}
+
+.team.home {
+    margin-left: 0.5rem;
+}
+.pick.pending {
+    background-color: gold;
+}
+
+.pick.wrong {
+    background-color: firebrick;
+    color: snow;
+}
+
+.pick.correct {
+    background-color: mediumaquamarine;
+}
+
+/* mediumspringgreen */
+
+.component-Matchup {
+    border: 1px solid rgba(0,0,0,0.4);
+    border-radius: 4px;
+    background-color: snow;  
+}
+
+.component-Matchup:not(:last-of-type) {
+    margin-bottom: .5rem;
+}
