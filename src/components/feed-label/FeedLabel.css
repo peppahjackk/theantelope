@@ -1,5 +1,11 @@
 .component-FeedLabel {
     margin-top: 0;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    background-color: rgb(240, 240, 240);
+    -webkit-box-shadow: 10px 10px 23px -8px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 10px 10px 23px -8px rgba(0, 0, 0, 0.47);
+    box-shadow: 10px 10px 23px -8px rgba(0, 0, 0, 0.47);
 }
 
 .component-FeedLabel > *:not(:last-child) {

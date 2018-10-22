@@ -1,6 +1,13 @@
 .component-Feed {
     width: 100%;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 4px;
     background-color: snow;
+}
+
+.feed-content {
+    width: 95%;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: none;
 }

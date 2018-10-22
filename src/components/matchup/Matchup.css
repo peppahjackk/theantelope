@@ -1,16 +1,13 @@
 .component-Matchup {
-    border: 1px solid rgba(0, 0, 0, 0.4);
-    border-radius: 4px;
-    background-color: rgb(240, 240, 240);
+    /* background-color: rgb(240, 240, 240); */
+    background-color: snow;
     text-align: left;
-    -webkit-box-shadow: 10px 10px 23px -8px rgba(0, 0, 0, 0.47);
-    -moz-box-shadow: 10px 10px 23px -8px rgba(0, 0, 0, 0.47);
-    box-shadow: 10px 10px 23px -8px rgba(0, 0, 0, 0.47);
     text-align: center;
   }
   
   .component-Matchup:not(:last-of-type) {
-    margin-bottom: 1rem;
+    /* padding-bottom: 1rem; */
+    border-bottom: 1px solid rgba(0,0,0,0.2);
   }
 
   .matchup-container {
@@ -23,7 +20,7 @@
   border-left: 1px solid rgba(0, 0, 0, 0.4);
   border-right: 1px solid rgba(0, 0, 0, 0.4);
   background-color: snow;
-  min-width: 70px;
+  min-width: 74px;
   text-align: center;
 }
 
