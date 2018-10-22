@@ -5,7 +5,7 @@ export default class Line extends Component
     render(){
         return(
             <div className="component-Line">
-                <span class="line">{this.props.line}</span>
+                <span className="line">{this.props.line}</span>
             </div>
         )
     }

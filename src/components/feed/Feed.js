@@ -3,10 +3,13 @@ import './Feed.css'
 import Matchup from '../matchup';
 import FeedLabel from '../feed-label'
 export default class Feed extends Component {
+    constructor(props) {
+        super(props);
+    }
     render() {
         return (
-            <div className="component-Feed">
-                <FeedLabel week={this.props.week} record={this.props.record} units={this.props.units}></FeedLabel>
+            <div className={"component-Feed " + this.props.collapsed}>
+                <FeedLabel week={this.props.week} record={this.props.record} units={this.props.units} collapsed={this.props.collapsed}></FeedLabel>
                 <div className="feed-content">
                     <Matchup home="LAC" away="TEN" pick="home" correct="wrong" ml="-270" spread="-6.5"></Matchup>
                     <Matchup home="TB" away="CLE" pick="home" correct="wrong" ml="-185" spread="-4"></Matchup>

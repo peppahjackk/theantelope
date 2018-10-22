@@ -19,7 +19,7 @@
   padding: 1rem 2rem;
   border-left: 1px solid rgba(0, 0, 0, 0.4);
   border-right: 1px solid rgba(0, 0, 0, 0.4);
-  background-color: snow;
+  background-color: rgb(240,240,240);;
   min-width: 74px;
   text-align: center;
 }
@@ -46,7 +46,7 @@
 
 .pick.wrong {
   background-color: firebrick;
-  color: snow;
+  color: rgb(240,240,240);;
 }
 
 .pick.correct {

@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   box-sizing: border-box;
+  padding-bottom: 4rem;
 }
 
 .App * {

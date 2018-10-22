@@ -1,0 +1,16 @@
+.component-Toggle {
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.component-Toggle div {
+    font-size: 2.8rem;
+    transform: rotate(45deg);
+    transition: .25s rotate ease;
+}
+
+.component-Feed.collapsed .component-Toggle div {
+    transform: rotate(0deg);
+}

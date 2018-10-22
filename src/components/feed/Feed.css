@@ -1,13 +1,34 @@
 .component-Feed {
-    width: 100%;
-    padding: 2rem;
-    border-radius: 4px;
-    background-color: snow;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 4px;
+  background-color: rgb(240, 240, 240);
+  ;
+}
+
+.component-Feed.collapsed {
+  padding: 0 2rem;
+}
+
+.component-Feed.collapsed .feed-content {
+  overflow: hidden;
+  max-height: 0;
+  border: none;
+  transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.component-Feed:last-of-type {
+    padding-bottom: 2rem;
 }
 
 .feed-content {
-    width: 95%;
-    margin: auto;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    border-top: none;
+  width: 95%;
+  margin: auto;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: none;
+}
+
+.feed-content {
+  max-height: 1000px;
+  transition: max-height 1s ease-in-out;
 }

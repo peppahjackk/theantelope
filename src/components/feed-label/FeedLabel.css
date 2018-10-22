@@ -1,13 +1,23 @@
 .component-FeedLabel {
+    position: relative;
     margin-top: 0;
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 4px;
-    background-color: rgb(240, 240, 240);
+    background-color: snow;
     -webkit-box-shadow: 10px 10px 23px -8px rgba(0, 0, 0, 0.47);
     -moz-box-shadow: 10px 10px 23px -8px rgba(0, 0, 0, 0.47);
     box-shadow: 10px 10px 23px -8px rgba(0, 0, 0, 0.47);
 }
 
+h2.component-FeedLabel {
+    padding: 0.5rem;
+}
+
 .component-FeedLabel > *:not(:last-child) {
     margin-right: 0.5rem;
+}
+
+.component-FeedLabel .component-Tag {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
