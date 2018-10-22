@@ -1,1 +1,16 @@
+h1 {
+    font-family: 'PoetsenOne-Regular', serif;
+}
 
+h2, h3 {
+    font-weight: 400;
+    margin: 0;
+    padding: 1rem;
+}
+
+.component-Header .subhead {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1rem;
+}

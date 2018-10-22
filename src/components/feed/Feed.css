@@ -1,3 +1,6 @@
-.component-feed {
+.component-Feed {
     width: 100%;
+    padding: 1rem;
+    border-radius: 4px;
+    background-color: snow;
 }

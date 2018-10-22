@@ -1,8 +1,9 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Team from '../team';
+import Line from '../line';
+import Result from '../result';
 import './Matchup.css'
-export default class Matchup extends Component
-{
+export default class Matchup extends Component {
     constructor(props) {
         super(props);
         console.log(props);
@@ -16,15 +17,20 @@ export default class Matchup extends Component
         if (props.pick === 'away') {
             this.awayClass += ' pick'
         }
-        
+
     }
 
-    render(){
-        return(
+    render() {
+        return (
             <div className="component-Matchup">
-                <Team location="away" team={this.props.away} customClass={this.awayClass}></Team>
-                vs
-                <Team location="home" team={this.props.home} customClass={this.homeClass}></Team>
+                <div className="matchup-container">
+                    <Team location="away" team={this.props.away} customClass={this.awayClass}></Team>
+                    vs
+                    <Team location="home" team={this.props.home} customClass={this.homeClass}></Team>
+                    <Line line={this.props.ml} lineType="ML"></Line>
+                    <Line line={this.props.spread} lineType="Spread"></Line>
+                    <Result result={this.props.correct}></Result>
+                </div>
             </div>
         )
     }

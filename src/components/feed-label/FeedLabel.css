@@ -1,0 +1,7 @@
+.component-FeedLabel {
+    margin-top: 0;
+}
+
+.component-FeedLabel > *:not(:last-child) {
+    margin-right: 0.5rem;
+}

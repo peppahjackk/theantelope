@@ -1,0 +1,12 @@
+.component-Line {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-left: 1px solid rgba(0, 0, 0, 0.4);
+  border-right: 1px solid rgba(0, 0, 0, 0.4);
+  min-width: 70px;
+  text-align: center;
+}
+
+.line {
+  text-align: center;
+}

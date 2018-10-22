@@ -1,0 +1,17 @@
+.component-Result {
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    height: 31px;
+    width: 31px;
+    margin-top: 2px;
+    margin-right: 2rem;
+}
+
+.component-Result.wrong {
+    background-image: url('../../imgs/wrong.svg')
+}
+
+.component-Result.correct {
+    background-image: url('../../imgs/success.svg')
+}
