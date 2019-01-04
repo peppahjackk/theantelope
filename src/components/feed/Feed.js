@@ -14,7 +14,6 @@ export default class Feed extends Component {
     }
 
     toggleFeed(event) {
-        console.log(this.state);
         this.setState({ collapsed: !this.state.collapsed });
     }
 
