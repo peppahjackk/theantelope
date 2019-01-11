@@ -3,18 +3,7 @@
   padding: 2rem;
   border-radius: 4px;
   background-color: rgb(240, 240, 240);
-  ;
-}
-
-.component-Feed.collapsed {
-  padding: 0 2rem;
-}
-
-.component-Feed.collapsed .feed-content {
-  overflow: hidden;
-  max-height: 0;
-  border: none;
-  transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+  
 }
 
 .component-Feed:last-of-type {
@@ -26,9 +15,27 @@
   margin: auto;
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-top: none;
+  max-height: 1000px;
+  overflow: hidden;
+}
+.feed-content-enter {
+  max-height: 0;
+  height: 0;
 }
 
-.feed-content {
+.feed-content-enter-active {
   max-height: 1000px;
-  transition: max-height 1s ease-in-out;
+  height: 100%;
+  transition: max-height 1s ease-in-out, height 1s ease-in-out;
+}
+
+.feed-content-exit {
+  max-height: 1000px;
+  height: 100%;
+}
+
+.feed-content-exit-active, .feed-content-exit-done {
+  max-height: 0;
+  height: 0;
+  transition: max-height .5s ease-out, height .5s ease-out;
 }

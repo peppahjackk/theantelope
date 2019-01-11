@@ -7,10 +7,10 @@
 
 .component-Toggle div {
     font-size: 2.8rem;
-    transform: rotate(45deg);
+    transform: rotate(0deg);
     transition: .25s rotate ease;
 }
 
 .component-Feed.collapsed .component-Toggle div {
-    transform: rotate(0deg);
+    transform: rotate(45deg);
 }
