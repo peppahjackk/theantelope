@@ -34,6 +34,7 @@ export default class Feed extends Component {
                     }
 
                 </CSSTransition>
+
             </div>
         )
     }
